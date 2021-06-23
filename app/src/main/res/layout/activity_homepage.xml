@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homepage">
+
+    <TabHost
+        android:id="@+id/tabhost1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:background="@color/backbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/backaground"
+                    android:orientation="vertical">
+                   <ListView
+                       android:id="@+id/listviewXML"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent">
+
+                   </ListView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:background="@color/backaground"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:paddingLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:textSize="20sp"
+                        android:textColor="@color/white"
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Starting a business can be one of the most daunting, yet rewarding things that one can do in life. Running your own business is the path to prosperity and financial freedom that we all dream of, however without the right guidance, it often ends in tears, heartbreak and wasted dollars. a business startup coach is the surefire way to ensure that you have the tools you need to succeed. Each with their own unique areas of expertise, here we present best business startup coaches, choose your guide and start your journey: " />
+                    <Button
+                        android:id="@+id/btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="access guides list from here ->" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/tab3"
+                    android:background="@color/backaground"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+</androidx.constraintlayout.widget.ConstraintLayout>
