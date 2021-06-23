@@ -64,14 +64,7 @@
                         android:layout_height="wrap_content"
                         android:text="access guides list from here ->" />
                 </LinearLayout>
-                <LinearLayout
-                    android:id="@+id/tab3"
-                    android:background="@color/backaground"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
 
-                </LinearLayout>
 
             </FrameLayout>
         </LinearLayout>

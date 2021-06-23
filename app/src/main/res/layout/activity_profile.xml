@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#A62121"
+    tools:context=".Profile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backaground"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@color/backbtn"
+        android:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Guide"
+        android:textAlignment="center"
+        android:textColor="#FFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/image1"
+        android:id="@+id/profile_Image"
+        tools:ignore="MissingClass" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_below="@id/profile_Image"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:src="@drawable/person_24" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/profile_Image"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:text="Aicha"
+        android:textColor="#FFF"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:background="@color/white"
+        android:layout_below="@id/textView2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+
+        android:src="@drawable/ic_contact" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:id="@+id/number"
+        android:layout_height="40dp"
+        android:layout_below="@id/textView2"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:text="+213  734215400"
+        android:textColor="#FFFF"
+        android:textSize="20dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="36dp"
+        android:background="@color/white"
+        android:layout_height="36dp"
+        android:layout_below="@id/imageView"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_email"/>
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:id="@+id/Email2"
+        android:layout_below="@id/imageView"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:text="Aicha22@gmail.com"
+        android:textColor="#FFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/imageView2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Rate :"
+        android:textAlignment="viewStart"
+        android:textColor="#899194"
+        android:textSize="20dp" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:text="Edit Profile"
+        android:background="@color/lighter"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:textSize="13dp"
+        android:layout_below="@id/textView5"
+        android:drawableLeft="@drawable/ic_baseline_edit_24"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

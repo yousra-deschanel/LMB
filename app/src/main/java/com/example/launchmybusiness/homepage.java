@@ -2,23 +2,16 @@ package com.example.launchmybusiness;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TabHost;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
-
-import java.util.ArrayList;
 
 
 public class homepage extends AppCompatActivity {
@@ -48,7 +41,7 @@ public class homepage extends AppCompatActivity {
         TipsClass tips2= new TipsClass("tips2","Tips for Growth" );
         TipsClass tips3= new TipsClass("tips3","Dos and Don'ts" );
         TipsClass tips4= new TipsClass("tips4","Selection of Business Partner" );
-        TipsClass tips5= new TipsClass("tips5","Tips for Decision Making" );
+        TipsClass tips5= new TipsClass("tips5","Tips for Desicion Making" );
         TipsClass tips6= new TipsClass("tips6","Tips To Improve Efficiency" );
         TipsClass tips7= new TipsClass("tips7","Tips for Time Management" );
         TipsClass tips8= new TipsClass("tips8","Trust your Instincts" );
@@ -58,9 +51,27 @@ public class homepage extends AppCompatActivity {
 
         TipsAdapter adapter =new TipsAdapter(homepage.this,XMlFILE,tips);
         tipslistview.setAdapter(adapter);
+        //evenemnt to go to the next activity
+        tipslistview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                if(position==0){
+                    Intent intent=new Intent(view.getContext(),SmallBusiness.class);
+                    startActivity(intent);
+                }
+                if(position==1){
+                    Intent intent=new Intent(view.getContext(),Growth.class);
+                    startActivity(intent);
+                }
+                if(position==2){
+                    Intent intent=new Intent(view.getContext(),DosDont.class);
+                    startActivity(intent);
+                }
+            }
+        });
 
         spec=host.newTabSpec("listguid");
-        spec.setIndicator("Guides");
+        spec.setIndicator("Guids");
         spec.setContent(R.id.tab2);
 
         //narbathoum host m3a spec
@@ -77,16 +88,25 @@ public class homepage extends AppCompatActivity {
 
 
 
+    }
+    //menu
+    public boolean onCreateOptionsMenu(Menu menu){
+        getMenuInflater().inflate(R.menu.ajouter_menu,menu );
+        return super.onCreateOptionsMenu(menu);
+    }
+    //pour choisir qu'elle menu on va travailler avec.
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
 
-        //tab Profil
-        spec=host.newTabSpec("prof");
-        spec.setIndicator("profile");
-        spec.setContent(R.id.tab3);
-        //narbathoum host m3a spec
-        host.addTab(spec);
+        int id=item.getItemId();
+        if(id==R.id.ajouter){
 
+            Intent intent = new Intent(this, Profile.class);
+            startActivity(intent);
+            return true;
+        }
 
-
+        return super.onOptionsItemSelected(item);
     }
 
 }

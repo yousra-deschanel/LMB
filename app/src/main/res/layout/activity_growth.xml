@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Growth">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-16dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="285dp"
+            app:srcCompat="@drawable/image2" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical">
+
+
+
+
+                <TextView
+                    android:id="@+id/Growth1text"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Its not just a bulk of cash that you need for turning your business into a growing successful business. There are some handful of things that can boost up your business. So, without further ado what are some of the things that you need to an account:" />
+
+
+                <TextView
+                    android:id="@+id/Growth2"
+                    android:layout_marginBottom="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. As an entrepreneur you need to make a to-do list on daily bases" />
+                <TextView
+                    android:id="@+id/Growth2text"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="That’s the most important and vital thing that you need to infuse in you because it shows as an entrepreneur how systematized and planned you are. You should make a to-do list on regular bases that will contain the details of the tasks you just have accomplished and the one that are yet to be done. Mention the tasks in order as the most important ones at the top as it will help you in staying focused. This to-do list will not you have any loop-holes because you will know that what is undone thus you will go for it."/>
+
+                <TextView
+                    android:id="@+id/Growth3"
+                    android:layout_marginBottom="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. Have your records save somewhere" />
+                <TextView
+                    android:id="@+id/Growth3text"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="It is wise to have all of your detailed records of your business save somewhere. Never think of over-looking the records of your business. These details will give you the clear picture of your existing position of business as where it does stand in terms of finance. By keeping tabs at your records, you will be able fight with the up-coming encounters. " />
+
+
+                <TextView
+                    android:id="@+id/Growth4"
+                    android:layout_marginBottom="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. Keenly analyze and learn from your competitors" />
+                <TextView
+                    android:id="@+id/Growth4text"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Your competitors are the best tool for you to learn so never lose a good chance to deeply analyze them, you can get to know about some new tricks and strategies of business through them, after getting them analyzed you will be able to apply that learning in your business"/>
+
+                <TextView
+                    android:id="@+id/Growth5"
+                    android:layout_marginBottom="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4. Be an upfront for facing the hazards" />
+                <TextView
+                    android:id="@+id/Growth5text"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="As an entrepreneur you have to be upfront whenever you encounter a problem or a challenge, it is an essential part of a business to not to be afraid of taking some calculated risks. You will be able to know about the glitches and hitches and this you will work on them as how can you push them away" />
+
+
+                <TextView
+                    android:id="@+id/Growth6"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5. Be promising in providing a good service" />
+                <TextView
+                    android:id="@+id/Growth6text"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" At the beginning of any business you seem to be very determined in proving an honest and fair service to your customers but by the passage time the spark starts getting disappear and this becomes the reason of a downfall of one’s business. So you have to be very promising in providing a fair and good service to your customers. Building up trust in your customers promises to bring a rip-roaring success to your business."/>
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -58,12 +58,14 @@ public class MainActivity extends AppCompatActivity {
         creat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //displayguides();
+                //testimage();
                 signup();
             }
         });
 
     }
+
+
 
     public void login(View view) {
         user=username.getText().toString();
@@ -117,13 +119,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    /*
-    public void displayguides() {
-        Intent intent = new Intent(this, userlist.class);
+
+    public void testimage() {
+        Intent intent = new Intent(this, LoadImageTest.class);
         startActivity(intent);
     }
-
-     */
 
 
     //go to sign up

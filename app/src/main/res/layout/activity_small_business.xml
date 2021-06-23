@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SmallBusiness">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-16dp">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="285dp"
+            app:srcCompat="@drawable/image1" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical">
+
+
+              <TextView
+               android:id="@+id/smallbis1"
+                  android:layout_marginBottom="5dp"
+                  android:textStyle="bold"
+                  android:textColor="@color/colorPrimary"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+                  android:text="1. Use the platform of social media for being close to your Customers" />
+
+                <TextView
+                    android:id="@+id/smallbis1text"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="For getting to know your customers
+ better as what they think about your venture or products, the best source to bridge up with your client is social media, so don’t ever miss a good chance to avail this huge platform to hangout with your customers. In this age it is social media that connects you with the rest of the world. So, the biggest medium of communication is social media and you should know the art of getting this medium cash." />
+
+
+                <TextView
+                    android:id="@+id/smallbis2"
+                    android:layout_marginBottom="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. Prove others wrong and keep moving" />
+                <TextView
+                    android:id="@+id/smallbis2text"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="People will come across you and will try to demotivate you by passing negative prediction about your business but you have to stay very optimistic and stubborn enough to stand firm against this opposite wind of criticism" />
+
+
+                <TextView
+                    android:id="@+id/smallbis3"
+                    android:layout_marginBottom="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. Get along with those who keeps positive thinking and positive vibes" />
+                <TextView
+                    android:id="@+id/smallbis3text"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Success wont knock at your door, you have to travel a long way till you find yourself in a firm position so it’s actually the passage that you need to travel patiently and enthusiastically. For keeping yourself fueled up you need to be with them who can load you up with some positivity, from whom you get positive vibes." />
+
+
+                <TextView
+                    android:id="@+id/smallbis4"
+                    android:layout_marginBottom="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4. Spread your happenings on Facebook" />
+                <TextView
+                    android:id="@+id/smallbis4text"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="What your venture says how it is beneficial for others, spread your message on Facebook. On Facebook you will be able catch up with the ones who are totally concerned with you. Share the nitty-gritty of your products in a most influential way" />
+
+
+                <TextView
+                    android:id="@+id/smallbis5"
+                    android:layout_marginBottom="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5. Keep a check on Sales whether they are meeting the requirements" />
+                <TextView
+                    android:id="@+id/smallbis5text"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="You need to have a daily check on sales, don’t forget to add up the checkpoints as it is suggested strongly. If the sales are meeting the requirements it means things are going smooth" />
+
+
+                <TextView
+                    android:id="@+id/smallbis6"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6. Keep yourself connected with mentors" />
+                <TextView
+                    android:id="@+id/smallbis6text"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mentors are said to be great blessing as the way they convey and make you understand the message of motivation and advice in a magical way, there are many groups of mentors who are willing to help you and equip you with their pearl of wisdom." />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

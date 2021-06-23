@@ -3,6 +3,10 @@
     package="com.example.launchmybusiness">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WHITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
 
     <application
         android:allowBackup="true"
@@ -14,9 +18,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LaunchMyBusiness">
         <activity android:name=".userlist"></activity>
+        <activity android:name=".Profile"></activity>
+        <activity android:name=".DosDont"></activity>
+        <activity android:name=".Growth"></activity>
+        <activity android:name=".SmallBusiness"></activity>
+        <activity android:name=".LoadImageTest"></activity>
 
         <activity android:name=".homepage" />
         <activity android:name=".signup" />
+
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,6 +35,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
     </application>
 
 </manifest>

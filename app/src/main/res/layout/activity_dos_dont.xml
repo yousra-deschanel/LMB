@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DosDont">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-16dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="285dp"
+            app:srcCompat="@drawable/image3" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/DosDont1"
+                    android:layout_marginBottom="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Don’t be ignorant about the cash in your bank" />
+
+                <TextView
+                    android:id="@+id/DosDont1text"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="You have to remain up-to-the-minute about your account details, in terms of sufficient cash should be there, as an entrepreneur you can’t afford to be run out of cash." />
+
+
+                <TextView
+                    android:id="@+id/DosDont2"
+                    android:layout_marginBottom="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. Do consider your best" />
+                <TextView
+                    android:id="@+id/DosDont2text"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="performers/employee
+This is the dilemma of business world that a good performer is not compensated the way he should, so you must not let it be your loop-hole, talented and promising employees are a great blessing so you should take care of such sharpie performers of yours"/>
+
+                <TextView
+                    android:id="@+id/DosDont3"
+                    android:layout_marginBottom="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. Don’t hesitate in saying Yes or No" />
+                <TextView
+                    android:id="@+id/DosDont3text"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes and no are strong words, mean them when you say them, secondly you must know when to use each. Never show yourself uncertain and the message of your company be ambiguous. Be very clear in your dealings " />
+
+
+                <TextView
+                    android:id="@+id/DosDont4"
+                    android:layout_marginBottom="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4. Do teach yourself meritocracy" />
+                <TextView
+                    android:id="@+id/DosDont4text"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A successful entrepreneur knows the art of meritocracy, meritocracy is how an entrepreneur runs his company or organization, in meritocracy you give priority to eligibility, ability and achievement, no biasness is adopted from your side"/>
+
+                <TextView
+                    android:id="@+id/DosDont5"
+                    android:layout_marginBottom="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5. Do teach yourself nepotism" />
+                <TextView
+                    android:id="@+id/DosDont5text"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nepotism is giving favors and rewards or in simple words being biased. As an entrepreneur you should know these two opposites terms, nepotism and meritocracy. So you have to assure you are not running an organization by being biased" />
+
+
+                <TextView
+                    android:id="@+id/DosDont6"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6. Don’t ignore your security and intellect" />
+                <TextView
+                    android:id="@+id/DosDont6text"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="You can defend your security and intellect by getting knowing the difference between such terms copyright, tradesceret, patent etc. As an entrepreneur don’t over-look your intellect otherwise you can get caught in a trouble "/>
+
+
+                <TextView
+                    android:id="@+id/DosDont7"
+                    android:layout_marginBottom="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="7. Don’t delay in penning down your agreements" />
+
+                <TextView
+                    android:id="@+id/DosDont7text"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Never be lazybones in penning down your agreements, for your better understanding love your neighbors but loving them doesn’t mean put your fence down, NO, have a safe ride by keeping all the details in hard form" />
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
